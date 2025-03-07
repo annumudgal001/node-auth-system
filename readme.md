@@ -1,20 +1,27 @@
-# till now
+# Node.js Authentication & Image Management System
 
-# Node.js Authentication System
-
-This is a Node.js-based backend application that provides user authentication and role-based access control. It uses Express.js for routing, MongoDB for data storage, and JWT for secure authentication.
+A secure backend system with user authentication, role-based access control, and admin-only image upload capabilities.
 
 ## Features
 
-- User registration and login
-- Role-based access control (user and admin)
-- Secure password hashing with bcrypt
-- JWT-based authentication
-- Modular code structure
+- **User Authentication**
+  - Registration & Login
+  - JWT-based security
+  - Password hashing with bcrypt
+- **Role Management**
+  - User/Admin roles
+  - Protected admin routes
+- **Image Management** 🆕
+  - Admin-only image upload
+  - Cloudinary cloud storage
+  - File validation (JPG/PNG <5MB)
+  - MongoDB image metadata storage
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/annumudgal001/node-auth-system.git
-   ```
+1. Clone repo:
+
+```bash
+git clone https://github.com/annumudgal001/node-auth-system.git
+cd node-auth-system
+```
